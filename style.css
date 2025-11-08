@@ -1,0 +1,79 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f5f1e9 url('background.png') repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 3rem;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 2.2rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+p {
+  text-indent: 1.5em;
+  margin-bottom: 1rem;
+}
+
+/* navigation links at the bottom of each page */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+.nav a {
+  color: #555;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+}
+.nav a:hover {
+  background: #e9e4d7;
+  color: #000;
+}
+
+.page-number {
+  text-align: center;
+  margin-top: 1rem;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+/* table of contents list */
+ul.toc {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+ul.toc li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+ul.toc li a {
+  color: #003366;
+  text-decoration: none;
+}
+ul.toc li a:hover {
+  text-decoration: underline;
+}
